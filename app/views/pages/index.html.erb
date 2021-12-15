@@ -1,0 +1,9 @@
+<h1>Pages#index</h1>
+<p>Find me in app/views/pages/index.html.erb</p>
+
+<h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, eligendi?</h2>
+
+
+<div class="card_container">
+    <%= render partial: '/pages/cards/card', collection: session[:img_array], as: :img_hash %>
+</div>
