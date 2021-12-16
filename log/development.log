@@ -1,0 +1,1920 @@
+Started GET "/" for ::1 at 2021-12-15 17:48:12 +0530
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered collection of pages/cards/_card.html.erb [0 times] (Duration: 0.0ms | Allocations: 24)
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 715)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+ERROR: [Errno 21] Is a directory: 'bin'
+CRITICAL:root:Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/cliapp/app.py", line 182, in _run
+    self.settings.load_configs()
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 829, in load_configs
+    self._read_ini(pathname, f)
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 838, in _read_ini
+    cp.readfp(f)
+  File "/usr/lib/python3.8/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.8/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.8/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/goisone/Desktop/Partials/partials-demo/config/webpack/development.js', line: 1
+"process.env.NODE_ENV = process.env.NODE_ENV || 'development'\n"
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/cliapp/app.py", line 182, in _run
+    self.settings.load_configs()
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 829, in load_configs
+    self._read_ini(pathname, f)
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 838, in _read_ini
+    cp.readfp(f)
+  File "/usr/lib/python3.8/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.8/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.8/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/goisone/Desktop/Partials/partials-demo/config/webpack/development.js', line: 1
+"process.env.NODE_ENV = process.env.NODE_ENV || 'development'\n"
+
+  Rendered layout layouts/application.html.erb (Duration: 1326.3ms | Allocations: 16060)
+Completed 500 Internal Server Error in 1356ms (ActiveRecord: 0.0ms | Allocations: 20072)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/goisone/Desktop/Partials/partials-demo/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2021-12-15 17:59:21 +0530
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered collection of pages/cards/_card.html.erb [0 times] (Duration: 0.1ms | Allocations: 32)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 855)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+ERROR: [Errno 21] Is a directory: 'bin'
+CRITICAL:root:Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/cliapp/app.py", line 182, in _run
+    self.settings.load_configs()
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 829, in load_configs
+    self._read_ini(pathname, f)
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 838, in _read_ini
+    cp.readfp(f)
+  File "/usr/lib/python3.8/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.8/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.8/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/goisone/Desktop/Partials/partials-demo/config/webpack/development.js', line: 1
+"process.env.NODE_ENV = process.env.NODE_ENV || 'development'\n"
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/cliapp/app.py", line 182, in _run
+    self.settings.load_configs()
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 829, in load_configs
+    self._read_ini(pathname, f)
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 838, in _read_ini
+    cp.readfp(f)
+  File "/usr/lib/python3.8/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.8/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.8/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/goisone/Desktop/Partials/partials-demo/config/webpack/development.js', line: 1
+"process.env.NODE_ENV = process.env.NODE_ENV || 'development'\n"
+
+  Rendered layout layouts/application.html.erb (Duration: 1087.8ms | Allocations: 19979)
+Completed 500 Internal Server Error in 1106ms (ActiveRecord: 0.0ms | Allocations: 24492)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/goisone/Desktop/Partials/partials-demo/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2021-12-15 18:00:58 +0530
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered collection of pages/cards/_card.html.erb [0 times] (Duration: 0.0ms | Allocations: 32)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 750)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+ERROR: [Errno 21] Is a directory: 'bin'
+CRITICAL:root:Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/cliapp/app.py", line 182, in _run
+    self.settings.load_configs()
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 829, in load_configs
+    self._read_ini(pathname, f)
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 838, in _read_ini
+    cp.readfp(f)
+  File "/usr/lib/python3.8/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.8/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.8/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/goisone/Desktop/Partials/partials-demo/config/webpack/development.js', line: 1
+"process.env.NODE_ENV = process.env.NODE_ENV || 'development'\n"
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/cliapp/app.py", line 182, in _run
+    self.settings.load_configs()
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 829, in load_configs
+    self._read_ini(pathname, f)
+  File "/usr/lib/python3/dist-packages/cliapp/settings.py", line 838, in _read_ini
+    cp.readfp(f)
+  File "/usr/lib/python3.8/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.8/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.8/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/goisone/Desktop/Partials/partials-demo/config/webpack/development.js', line: 1
+"process.env.NODE_ENV = process.env.NODE_ENV || 'development'\n"
+
+  Rendered layout layouts/application.html.erb (Duration: 1072.2ms | Allocations: 8670)
+Completed 500 Internal Server Error in 1087ms (ActiveRecord: 0.0ms | Allocations: 12162)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/goisone/Desktop/Partials/partials-demo/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (65.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (59.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-12-15 12:32:42.575476"], ["updated_at", "2021-12-15 12:32:42.575476"]]
+  [1m[36mTRANSACTION (48.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2021-12-15 18:06:41 +0530
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered collection of pages/cards/_card.html.erb [0 times] (Duration: 0.0ms | Allocations: 29)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 484)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2021-12-15 18:06:45 +0530
+Processing by PagesController#index as HTML
+[Webpacker] Compiled all packs in /home/goisone/Desktop/Partials/partials-demo/public/packs
+[Webpacker] Hash: 2034dd941d5476d8645c
+Version: webpack 4.46.0
+Time: 2279ms
+Built at: 15/12/2021 18:06:47
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-3dd0dc24d9c39bc09227.js    125 KiB  application  [emitted] [immutable]  application
+js/application-3dd0dc24d9c39bc09227.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-3dd0dc24d9c39bc09227.js js/application-3dd0dc24d9c39bc09227.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5647.1ms | Allocations: 10406)
+Completed 200 OK in 5659ms (Views: 5649.1ms | ActiveRecord: 0.0ms | Allocations: 13115)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.8ms | Allocations: 159)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.7ms | Allocations: 126)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 1.1ms | Allocations: 124)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 56)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 31.2ms | Allocations: 3886)
+  Rendered pages/index.html.erb within layouts/application (Duration: 32.1ms | Allocations: 4023)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.6ms | Allocations: 7047)
+Completed 200 OK in 7989ms (Views: 40.1ms | ActiveRecord: 0.0ms | Allocations: 35385)
+
+
+Started GET "/" for ::1 at 2021-12-15 18:06:56 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 69)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.8ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 21.9ms | Allocations: 3014)
+  Rendered pages/index.html.erb within layouts/application (Duration: 23.2ms | Allocations: 3146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 6130)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 6814)
+
+
+Started GET "/" for ::1 at 2021-12-15 18:06:57 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.9ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 20.8ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 22.4ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 5971)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 6503)
+
+
+Started GET "/" for ::1 at 2021-12-15 18:06:57 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 1.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.9ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.7ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 1.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 42.8ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 43.5ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.8ms | Allocations: 5980)
+Completed 200 OK in 90ms (Views: 87.9ms | ActiveRecord: 0.0ms | Allocations: 6512)
+
+
+Started GET "/" for ::1 at 2021-12-15 18:06:57 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.6ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 31.3ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 37.1ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.4ms | Allocations: 5978)
+Completed 200 OK in 65ms (Views: 62.5ms | ActiveRecord: 0.0ms | Allocations: 6508)
+
+
+Started GET "/" for ::1 at 2021-12-15 18:40:04 +0530
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.8ms | Allocations: 214)
+  Rendered pages/cards/_card_name.html.erb (Duration: 1.1ms | Allocations: 128)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 1.0ms | Allocations: 124)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 56)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 21.9ms | Allocations: 3912)
+  Rendered pages/index.html.erb within layouts/application (Duration: 26.6ms | Allocations: 4584)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.5ms | Allocations: 10225)
+Completed 200 OK in 79ms (Views: 61.3ms | ActiveRecord: 0.0ms | Allocations: 13956)
+
+
+Started GET "/" for ::1 at 2021-12-15 18:40:05 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 16.3ms | Allocations: 3014)
+  Rendered pages/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 3146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 6129)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 6786)
+
+
+Started GET "/" for ::1 at 2021-12-16 10:38:32 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 18.5ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 5970)
+Completed 200 OK in 28ms (Views: 26.7ms | Allocations: 6497)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:10:43 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.8ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 22.5ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 23.7ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 102.5ms | Allocations: 13844)
+Completed 200 OK in 106ms (Views: 104.7ms | Allocations: 14371)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:40:13 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 19.0ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 19.8ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.5ms | Allocations: 13367)
+Completed 200 OK in 55ms (Views: 54.1ms | Allocations: 13900)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:40:33 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.7ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 16.2ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.8ms | Allocations: 13353)
+Completed 200 OK in 76ms (Views: 74.8ms | Allocations: 13885)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:40:34 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 2.9ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 22.4ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 23.0ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 5972)
+Completed 200 OK in 31ms (Views: 30.5ms | Allocations: 6499)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:40:34 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 22.6ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 24.2ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 5974)
+Completed 200 OK in 38ms (Views: 36.5ms | Allocations: 6506)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:40:35 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.0ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 3.4ms | Allocations: 42)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 29.1ms | Allocations: 5894)
+  Rendered pages/index.html.erb within layouts/application (Duration: 30.3ms | Allocations: 6053)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 9328)
+Completed 200 OK in 47ms (Views: 45.4ms | Allocations: 9856)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:40:44 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.8ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.6ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.8ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 28.7ms | Allocations: 2994)
+  Rendered pages/index.html.erb within layouts/application (Duration: 30.0ms | Allocations: 3119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 85.1ms | Allocations: 13366)
+Completed 200 OK in 90ms (Views: 86.1ms | Allocations: 13893)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:40:53 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 32.1ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 33.3ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 99.9ms | Allocations: 13802)
+Completed 200 OK in 103ms (Views: 101.7ms | Allocations: 14329)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:41:06 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.9ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.7ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 20.9ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 22.0ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.6ms | Allocations: 13352)
+Completed 200 OK in 84ms (Views: 80.1ms | Allocations: 13880)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:41:11 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.7ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 18.6ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 20.1ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 91.1ms | Allocations: 13365)
+Completed 200 OK in 94ms (Views: 92.5ms | Allocations: 13893)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:41:23 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 1.0ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 16.5ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.8ms | Allocations: 13849)
+Completed 200 OK in 68ms (Views: 67.1ms | Allocations: 14377)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:41:24 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 12.2ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 5972)
+Completed 200 OK in 27ms (Views: 25.4ms | Allocations: 6499)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:41:37 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 30.0ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 32.7ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 94.1ms | Allocations: 13353)
+Completed 200 OK in 98ms (Views: 95.4ms | Allocations: 13881)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:41:47 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 1.9ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 1.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.7ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 32.9ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 34.5ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 90.2ms | Allocations: 14778)
+Completed 200 OK in 92ms (Views: 91.2ms | Allocations: 15306)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:41:59 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.8ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 20.3ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 21.0ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 98.1ms | Allocations: 13362)
+Completed 200 OK in 101ms (Views: 99.2ms | Allocations: 13890)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:42:16 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 25.1ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 26.0ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 5972)
+Completed 200 OK in 49ms (Views: 46.7ms | Allocations: 6499)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:42:19 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 1.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.7ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 18.9ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 19.8ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.3ms | Allocations: 13806)
+Completed 200 OK in 75ms (Views: 74.2ms | Allocations: 14334)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:42:35 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 20.1ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 20.8ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.6ms | Allocations: 13371)
+Completed 200 OK in 76ms (Views: 74.8ms | Allocations: 13899)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:42:40 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 1.0ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 36.5ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 37.7ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.0ms | Allocations: 5972)
+Completed 200 OK in 53ms (Views: 51.3ms | Allocations: 6500)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:42:42 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 1.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.9ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.6ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 26.4ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 27.7ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 77.8ms | Allocations: 13358)
+Completed 200 OK in 81ms (Views: 79.2ms | Allocations: 13885)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:42:42 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.0ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 19.2ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 20.1ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 5972)
+Completed 200 OK in 36ms (Views: 35.3ms | Allocations: 6500)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:42:50 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.7ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 21.9ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 22.9ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.9ms | Allocations: 13825)
+Completed 200 OK in 80ms (Views: 77.8ms | Allocations: 14352)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:42:58 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 1.0ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 1.0ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 27.4ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 28.6ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.3ms | Allocations: 5972)
+Completed 200 OK in 47ms (Views: 45.2ms | Allocations: 6500)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:43:03 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 1.0ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 27.4ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 28.1ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 87.5ms | Allocations: 13364)
+Completed 200 OK in 90ms (Views: 88.5ms | Allocations: 13891)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:43:08 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 2.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 2.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 27.8ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 28.5ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.3ms | Allocations: 13815)
+Completed 200 OK in 83ms (Views: 80.5ms | Allocations: 14342)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:43:28 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.7ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 21.5ms | Allocations: 2994)
+  Rendered pages/index.html.erb within layouts/application (Duration: 22.7ms | Allocations: 3119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.7ms | Allocations: 14337)
+Completed 200 OK in 79ms (Views: 76.9ms | Allocations: 14865)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:44:05 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.7ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 2.8ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.9ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 28.1ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 29.0ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 86.6ms | Allocations: 13838)
+Completed 200 OK in 91ms (Views: 90.1ms | Allocations: 14366)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:44:07 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 20.2ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 21.1ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 5972)
+Completed 200 OK in 35ms (Views: 33.7ms | Allocations: 6499)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:44:18 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.8ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 26.4ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 27.3ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 80.8ms | Allocations: 13374)
+Completed 200 OK in 84ms (Views: 82.4ms | Allocations: 13902)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:45:23 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 161)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.9ms | Allocations: 123)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.9ms | Allocations: 124)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 31.5ms | Allocations: 3790)
+  Rendered pages/index.html.erb within layouts/application (Duration: 33.4ms | Allocations: 4187)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.5ms | Allocations: 15469)
+Completed 200 OK in 76ms (Views: 74.1ms | Allocations: 16913)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:45:41 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 26.4ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 27.9ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 89.6ms | Allocations: 14296)
+Completed 200 OK in 93ms (Views: 90.9ms | Allocations: 14874)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:45:46 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.8ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 8.2ms | Allocations: 42)
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.0ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 32.6ms | Allocations: 2994)
+  Rendered pages/index.html.erb within layouts/application (Duration: 33.2ms | Allocations: 3119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 85.1ms | Allocations: 13864)
+Completed 200 OK in 89ms (Views: 87.0ms | Allocations: 14391)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:46:40 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 9.4ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.8ms | Allocations: 14248)
+Completed 200 OK in 55ms (Views: 53.7ms | Allocations: 14776)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:46:57 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.8ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.6ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.7ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 1.5ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 27.5ms | Allocations: 2994)
+  Rendered pages/index.html.erb within layouts/application (Duration: 30.4ms | Allocations: 3119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 92.3ms | Allocations: 14692)
+Completed 200 OK in 95ms (Views: 93.6ms | Allocations: 15220)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:47:17 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.4ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 4.4ms | Allocations: 53)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 33.4ms | Allocations: 2994)
+  Rendered pages/index.html.erb within layouts/application (Duration: 34.4ms | Allocations: 3119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 92.0ms | Allocations: 13388)
+Completed 200 OK in 95ms (Views: 93.4ms | Allocations: 13915)
+
+
+Started GET "/" for ::1 at 2021-12-16 11:47:21 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.5ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.3ms | Allocations: 41)
+  Rendered pages/cards/_card_image.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered pages/cards/_card_name.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered pages/cards/_card_artist.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered collection of pages/cards/_card.html.erb [9 times] (Duration: 20.9ms | Allocations: 2993)
+  Rendered pages/index.html.erb within layouts/application (Duration: 22.4ms | Allocations: 3118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 5974)
+Completed 200 OK in 35ms (Views: 33.8ms | Allocations: 6501)
+
+
